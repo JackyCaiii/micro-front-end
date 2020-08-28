@@ -1,0 +1,59 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+html,
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body,
+textarea,
+button,
+input,
+select {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "微软雅黑", Arial, sans-serif;
+  font-size: 14px;
+}
+
+// 清除浮动
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+#nprogress .spinner div {
+  display: none;
+}
+
+// 不需要margin-bottom的form表单
+.el-form.nomargin .el-form-item {
+  margin-bottom: 0;
+}
+
+// form表单label位置为top时，表单元素宽度填充至100%
+.label-top-fill-width {
+  .el-form-item {
+    width: 100%;
+    .el-form-item__content > :first-child {
+      width: 100%;
+    }
+  }
+}
+

@@ -1,0 +1,83 @@
+.el-menu-item,
+.el-submenu .el-menu-item,
+.el-submenu__title {
+  font-size: 14px;
+  height: 46px;
+  line-height: 46px;
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+.el-date-editor--daterange.el-input__inner {
+  width: 220px;
+  top: 1px;
+}
+
+.el-date-editor.el-input {
+  width: 140px;
+}
+
+.el-dialog__header {
+  padding: 10px;
+  border-bottom: 1px solid #ebeef5;
+
+  .el-dialog__title {
+    font-size: 16px;
+  }
+
+  .el-dialog__headerbtn {
+    top: 14px;
+  }
+}
+
+.el-dialog__body {
+  padding: 15px;
+  // max-height: 58vh;
+  // overflow-y: auto;
+  // overflow-x: hidden;
+}
+
+.el-dialog__footer {
+  border-top: 1px solid #ebeef5;
+  padding: 10px;
+}
+
+.el-form-item__content .el-input-group.el-input-group--append {
+  vertical-align: baseline;
+}
+
+.el-tabs__nav-wrap::after {
+  height: 1px;
+}
+
+.el-form--label-top {
+  .el-form-item {
+    .el-form-item__label {
+      padding-bottom: 0;
+      line-height: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.el-menu-item.is-active {
+  background: #eefaf8;
+}
+
+.el-input-group__append,
+.el-input-group__prepend {
+  padding: 0 10px;
+  min-width: 18px;
+  text-align: center;
+}
+
+//element card，头部
+.el-card__header {
+  padding: 8px 20px;
+}
+
+.el-image-viewer__wrapper .el-image-viewer__close .el-icon-circle-close {
+  color: white;
+}
